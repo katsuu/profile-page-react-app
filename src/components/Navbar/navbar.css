@@ -1,0 +1,36 @@
+.navbar-container {
+  box-sizing: border-radius;
+  padding: 8px 24px;
+  background-color: #1e63b9;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  flex: 1 1 auto;
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar-link {
+  margin-right: 24px;
+}
+
+.navbar-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-profile {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-profile-avatar {
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 16px;
+}

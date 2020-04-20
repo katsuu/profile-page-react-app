@@ -1,0 +1,46 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f0f2f7;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.app {
+  font-family: sans-serif;
+}
+
+.page {
+  padding: 24px 32px;
+}
+
+.button-primary {
+  background-color: #2286e5;
+  border-radius: 3px;
+  padding: 8px;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid #1f72c0;
+}
+
+.heading-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.body-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}

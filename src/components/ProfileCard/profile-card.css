@@ -1,0 +1,31 @@
+.profile-card-container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card-user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.profile-card-user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 16px;
+}
+
+.profile-card-user-details {
+  display: flex;
+  flex-direction: column;
+}
+.profile-card-footer {
+  display: flex;
+  justify-content: flex-end;
+}

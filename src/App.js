@@ -12,7 +12,10 @@ export default function App() {
     <div className="app">
       <Navbar user={data.user} />
       <div className="page">
-        <ProfilePage />
+        <ProfilePage
+          user={data.user}
+          followers={data.followRecommendations.length}
+        />
         <FollowRecommendations users={data.followRecommendations} />
       </div>
     </div>

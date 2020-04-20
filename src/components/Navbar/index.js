@@ -20,7 +20,7 @@ export function Navbar({ user }) {
 
       <div className="navbar-profile">
         <span className="navbar-profile-name">
-          {getName(user, { displayShortName: true, hideName: true })}
+          {getName(user, { displayUsername: true, hideName: true })}
         </span>
 
         <div className="navbar-profile-avatar">

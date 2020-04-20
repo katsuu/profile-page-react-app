@@ -2,9 +2,8 @@ import React from "react";
 
 import "./profile-card.css";
 
-import { getName, capitalise, name } from "../../utils";
+import { getName, capitalise } from "../../utils";
 
-console.log('name', name);
 export function ProfileCard({ user }) {
   return (
     <div className="profile-card-container">

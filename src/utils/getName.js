@@ -4,7 +4,7 @@ export default function getName(person, displayOptions) {
     displayShortName: false,
     displayUsername: true,
     hideName: false,
-    ...displayOptions
+    ...displayOptions,
   };
 
   const { first, last, honorific } = person.name;

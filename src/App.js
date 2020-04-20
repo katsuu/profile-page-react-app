@@ -12,7 +12,7 @@ export default function App() {
     <div className="app">
       <Navbar user={data.user} />
       <div className="page">
-        {/* <ProfilePage /> */}
+        <ProfilePage />
         <FollowRecommendations users={data.followRecommendations} />
       </div>
     </div>
